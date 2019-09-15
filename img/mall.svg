@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-283 285 512 512" enable-background="new -283 285 512 512" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-227" y1="637" x2="-115" y2="637">
+	<stop  offset="0" style="stop-color:#FFC96B"/>
+	<stop  offset="0.6227" style="stop-color:#F89939"/>
+	<stop  offset="1" style="stop-color:#F48120"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M-227,629h112v16h-112V629z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-67" y1="637" x2="45" y2="637">
+	<stop  offset="0" style="stop-color:#FFC96B"/>
+	<stop  offset="0.6227" style="stop-color:#F89939"/>
+	<stop  offset="1" style="stop-color:#F48120"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M-67,629H45v16H-67V629z"/>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="112.3" y="662.5" width="61.5" height="97.1"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_4_)">
+		
+			<image overflow="visible" width="1080" height="1080" xlink:href="../../logo/irh_logo_3.png"  transform="matrix(8.992570e-002 0 0 8.992570e-002 76.6302 662.5)">
+		</image>
+	</g>
+</g>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-275" y1="541" x2="221" y2="541">
+	<stop  offset="0" style="stop-color:#FFC96B"/>
+	<stop  offset="0.6227" style="stop-color:#F89939"/>
+	<stop  offset="1" style="stop-color:#F48120"/>
+</linearGradient>
+<path fill="url(#SVGID_5_)" d="M213,741h-8V301c0-4.4-3.6-8-8-8h-320c-4.4,0-8,3.6-8,8v104h-120c-4.4,0-8,3.6-8,8v328h-8
+	c-4.4,0-8,3.6-8,8v32c0,4.4,3.6,8,8,8h480c4.4,0,8-3.6,8-8v-32C221,744.6,217.4,741,213,741z M125,741v-72c0-4.4-3.6-8-8-8H77v-16
+	h112v96H125z M-243,597v-64h64v64H-243z M-163,533h64v64h-64V533z M-83,533h64v64h-64V533z M-3,533h64v64H-3V533z M77,421h32v64H77
+	V421z M189,629H77v-16h112V629z M77,597v-64h32v64H77z M189,597h-64v-64h64V597z M189,485h-64v-64h64V485z M77,501h112v16H77V501z
+	 M77,677h32v64H77V677z M189,373h-64v-64h64V373z M-35,373v-64h64v64H-35z M45,309h64v64H45V309z M-51,309v64h-64v-64H-51z
+	 M-115,389h304v16H69h-184V389z M61,421v96h-304v-96H61z M-243,613H61v128H45v-72c0-4.4-3.6-8-8-8h-96c-4.4,0-8,3.6-8,8v72h-48v-72
+	c0-4.4-3.6-8-8-8h-96c-4.4,0-8,3.6-8,8v72h-16V613z M-51,741v-64h32v64H-51z M-3,677h32v64H-3V677z M-211,741v-64h32v64H-211z
+	 M-163,677h32v64h-32V677z M205,773h-464v-16h464V773z"/>
+</svg>
