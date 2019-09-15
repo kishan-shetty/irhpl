@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700&display=swap');
+
+body
+{
+  font-family: 'Muli', sans-serif;
+}
+
+/* ---- reset ---- */
+
+.navbar
+{
+  background-color: #090a14!important;
+  padding: 15px;
+}
+
+.nav-link
+{
+  color: rgba(255, 255, 255, 0.75)!important;
+  margin: 0px 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar-brand img
+{
+  height: 60px;
+}
+
+.body {
+  margin: 0;
+  background-color: #090a14;
+  height: 160vh;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.logomain
+{
+  padding-top: 130px;
+  text-align: center;
+  position: fixed;
+}
+
+.logomain .motif
+{
+  height: 230px;
+}
+
+.logomain .mo
+{
+  height: 100px;
+  margin-top: 30px;
+}
+
+.clouds
+{
+  margin-top: -469px;
+  position: relative;
+  z-index: 2;
+/*  display: none;*/
+}
+
+.clouds img
+{
+  width: 100%;
+}
+
+.leap
+{
+  position: relative;
+  z-index: 1;
+  margin-top: -250px;
+  height: 130vh;
+  background-image: url(img/newleapp.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.newl
+{
+  width: 900px;
+  position: fixed;
+}
+
+.hamburger-menu
+{
+  position: relative;
+  z-index: 999;
+  position: fixed;
+}
+
+.hamburger-menu img
+{
+  height: 34px;
+  margin: 30px;
+}
+
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('img/irh.gif');
+   background-repeat: no-repeat; 
+   background-color: #FFF;
+   background-position: center;
+}
+
+.intro
+{
+  padding: 80px;
+  background-color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.linee
+{
+  width: 1px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+/*  margin-top: -100px;*/
+}
+
+.inpara
+{
+/*  text-align: center;*/
+/*  width: 800px;*/
+  font-weight: 100;
+  font-size: 34px;
+  color: rgba(0, 0, 0, 0.7);
+/*  padding-left: 30px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+}
+
+.bar
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #F58220;
+  margin-left: -30px;
+  margin-bottom: -30px;
+/*  background-color: #bc7401;*/
+}
+
+.blur-img
+{
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blur-img img
+{
+  width: 900px;
+  margin-right: auto;
+}
+
+.blur-img h2
+{
+/*  font-weight: 700;*/
+  font-size: 34px;
+/*  color: #F58220;*/
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.cta
+{
+  border: 1px solid #F58220;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  color: black;
+  border-radius: 0px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition-duration: 0.3s;
+}
+
+.cta:hover
+{
+  color: white;
+  background-color: #F58220;
+}
+
+.another
+{
+  height: 500px;
+  background-image: url(img/people-blur.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 4;
+}
+
+.approach
+{
+  background-color: white;
+  position: relative;
+  z-index: 3;
+  left: 0;
+  transition: 0.3s;
+}
+
+.apsolo
+{
+  border-top: 1px solid rgba(245, 130, 32, 0.1);
+  border-bottom: 1px solid rgba(245, 130, 32, 0.1);
+  padding: 50px;
+  text-transform: uppercase;
+/*  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(248,213,214,1) 0%, rgba(243,242,229,1) 90% );*/
+  background: linear-gradient(45deg, rgba(249, 226, 46, 0.3), rgba(253, 195, 97, 0));
+/*  transition: 0.3s;*/
+}
+
+.apsolo:hover
+{
+  background: linear-gradient(45deg, rgba(247, 178, 63, 0.2), rgba(249, 166, 46, 0.5));
+  cursor: pointer;
+}
+
+.appsolo:hover .apsolo img
+{
+  margin-left: 30px;
+}
+
+.apsolo h2
+{
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.apsolo img
+{
+  height: 80px;
+  margin-bottom: 80px;
+}
+
+.brands
+{
+/*  padding: 80px;*/
+/*  background-color: #0d141c;*/
+  color: white;
+  position: relative;
+  z-index: 3;
+  padding: 60px;
+  background-color: white;
+}
+
+.brands img
+{
+  width: 80%;
+}
+
+.brands h2
+{
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.braneds
+{
+  background-color: white;
+  padding: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: black;
+}
+
+.brands .container-fluid
+{
+/*  padding: 0px;*/
+}
+
+.ourr
+{
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);  
+}
+
+.ourr:hover
+{
+/*  background-color: rgba(245, 130, 32, 0.1);*/
+}
+
+.ourr a
+{
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+}
+
+.ourr a:hover
+{
+  color: black;
+}
+
+.one
+{
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+/*  background-color: rgba(19, 25, 80, 0.05);*/
+}
+
+.two
+{
+/*  background-color: rgba(65, 26, 56, 0.1);*/
+}
+
+footer
+{
+  background-color: #090a14;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 60px;
+  position: relative;
+  z-index: 3;
+  line-height: 1.7;
+}
+
+.foo img
+{
+  opacity: 0.1;
+  filter: saturate(0);
+  width: 70%;
+}
+
+.fhead
+{
+  color: rgba(255, 255, 255, 0.8);
+/*  font-weight: 700;*/
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.social
+{
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.social i
+{
+  margin-right: 10px;
+}
+
+.social i:hover
+{
+  color: white;
+}
+
+.foot2
+{
+  background-color: #04050a;
+  color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  text-align: center;
+}
